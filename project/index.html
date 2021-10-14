@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en" ng-app="lunchLister">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Favorite Lunch Places</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body ng-controller="LunchListerCtrl">
+    <div>
+        <h1><center>Welcome to Patna</center> </h1>
+    </div>
+    <div class="page-wrap">
+        <div class="controls">
+            <fieldset>
+                <label><input type="checkbox" ng-model="meals.breakfast">Breakfast</label>
+                <label><input type="checkbox" ng-model="meals.lunch">Lunch</label>
+                <label><input type="checkbox" ng-model="meals.Dinner">Dinner</label>
+            </fieldset>
+
+            <fieldset>
+                <label><input type="checkbox" ng-model="query.take_out">Take Out</label>
+                <label><input type="checkbox" ng-model="query.sit_down">Sit Down</label>
+            </fieldset>
+
+            <fieldset>
+                <label><input type="checkbox" ng-model="Vegetarian_only">Vegetarian_only</label>
+            </fieldset>
+        </div>
+
+        <table class="places">
+            <thead>
+                <tr>
+                    <th>Place</th> <th>Categories</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="place" ng-repeat="place in places | orderBy:'name' | or:query | contains:meals:'meals' | filter:Vegetarian_only ? {Vegetarian_only:true} : {}">
+                    <td>
+                      <div class="name">{{ place.name }}</div>
+                        <ul class="links">
+                            <li ng-repeat="(key, link) in place.links" ng-class="key">
+                              <a ng-href="{{ link.url }}" title="View {{ place.name }} on {{ link.label }}" target="_blank">
+                                <i class="fa fa-{{ getIcon(key) }}"></i>
+                                <span class="sr-only">{{ link.label }}</span>
+                              </a>
+                            </li>
+                        </ul>
+                    </td>
+                    <td class="categories">{{ place.categories.join(', ') }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+    <script type="text/JavaScript" src="app.js"></script>
+</body>
+</html>
