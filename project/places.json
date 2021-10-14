@@ -1,0 +1,234 @@
+[
+    {
+      "name": "bansi bihar",
+      "meals": ["lunch", "Dinner"],
+      "categories": ["Bihari classic"],
+      "take_out": false,
+      "sit_down": true,
+      "Vegetarian_only": false,
+      "links": {"google_maps": {"label": "Google Maps", "url": "https://www.google.com/maps/place/Bansi+Vihar,+New+Patliputra+Colony,+Patliputra+Colony,+Patna,+Bihar+800013/@25.6262221,85.1056228,17z"}}
+    },
+    {
+      "name": "17th degree",
+      "meals": ["lunch", "Dinner"],
+      "categories": ["south indian"],
+      "take_out": false,
+      "sit_down": true,
+      "Vegetarian_only": false,
+      "links":{"google_maps":{"label": "Google Maps", "url": "https://www.google.com/maps/place/17+Degrees,+Patna/@25.6341992,85.104127,17z"}}
+    },
+    {
+      "name": "cafe 13",
+      "meals": ["lunch"],
+      "categories": ["south indian"],
+      "take_out": true,
+      "sit_down": false,
+      "Vegetarian_only": false,
+      "links": {"google_maps": {"label": "Google Maps", "url": "https://www.google.com/maps/place/Cafe+13/@25.6134738,85.1156343,17z"}}
+    },
+    {
+      "name": "made in thailand",
+      "meals": ["lunch", "Dinner"],
+      "categories": ["Food Stands", "Middle Eastern", "Halal Food Cart"],
+      "take_out": true,
+      "sit_down": false,
+      "Vegetarian_only": true,
+      "links": {}
+    },
+    {
+      "name": "yo china",
+      "meals": ["lunch, breakfast"],
+      "categories": ["Asian Fusion (Noodles)"],
+      "take_out": false,
+      "sit_down": true,
+      "Vegetarian_only": false,
+      "links": { "google_maps": {"label": "Google Maps", "url": "https://www.google.com/maps/search/yo+china+patna"}}
+    },
+    {
+      "name": "mc donanalds",
+      "meals": ["lunch"],
+      "categories": ["Hamburgers"],
+      "take_out": true,
+      "sit_down": true,
+      "Vegetarian_only": false,
+      "links": {"google_maps": {"label": "Google Maps", "url": "https://www.google.com/maps/place/McDonald's/@25.6179084,85.1465256,17z"}}
+    },
+    {
+      "name": "la pino's Burger",
+      "meals": ["lunch"],
+      "categories": ["Hamburgers"],
+      "take_out": false,
+      "sit_down": true,
+      "Vegetarian_only": false,
+      "links": {"google_maps": {"label": "Google Maps", "url": "https://www.google.com/maps/search/la+pino'z+pizza/@25.624844,85.0070694,12z"}}
+    },
+    {
+      "name": "harilal",
+      "meals": ["lunch"],
+      "categories": ["Sandwiches"],
+      "take_out": true,
+      "sit_down": false,
+      "Vegetarian_only": true,
+      "links": {"google_maps": {"label": "Google Maps", "url": "https://www.google.com/maps/place/Harilal's+Patna/@25.5992871,85.1524386,17z"}}
+    },
+    {
+      "name": "the new hawaian restro",
+      "meals": ["lunch"],
+      "categories": ["hawaiian"],
+      "take_out": true,
+      "sit_down": false,
+      "Vegetarian_only": false,
+      "links": {"google_maps": {"label": "Google Maps", "url": "https://www.google.com/maps/place/Royal+Restro/@25.6145522,85.1136129,17z/"}}
+    },
+    {
+      "name": "food court",
+      "meals": ["lunch"],
+      "categories": ["Food Truck"],
+      "take_out": true,
+      "sit_down": false,
+      "Vegetarian_only": false,
+      "links": {"twitter": {"label": "Twitter", "url": "https://www.google.com/maps/place/P%26M+Mall/@25.6340784,85.1041838,17z"}}
+    },
+    {
+      "name": "fast food corner",
+      "meals": ["lunch"],
+      "categories": ["italian" , "chinese", "mexican"],
+      "take_out": true,
+      "sit_down": false,
+      "Vegetarian_only": false,
+      "links": {"google_maps": { "label": "Google Maps", "url": "https://www.google.com/maps/place/Hot+Pot+Resturant/@25.6096374,85.0790032,17z"}}
+    },
+    {
+      "name": "hometown Diner",
+      "meals": ["lunch"],
+      "categories": ["Diner"],
+      "take_out": false,
+      "sit_down": true,
+      "Vegetarian_only": false,
+      "links": {"google_maps": { "label": "Google Maps", "url": "https://www.google.com/maps/place/The+Downtown+Cafe+-+Best+Cafe+Restaurant+in+Kankarbagh+Patna/@25.5972274,85.1525697,17z/"}}
+    },
+    {
+      "name": "Chicago pizza",
+      "meals": ["lunch","Dinner"],
+      "categories": ["Pizza"],
+      "take_out": false,
+      "sit_down": true,
+      "Vegetarian_only": false,
+      "links": {"google_maps": { "label": "Google Maps", "url": "https://www.google.com/maps/place/Chicago+Pizza/@25.5997993,85.1546856,17z"}}
+    },
+    {
+      "name": "Sundae",
+      "meals": ["breakfast", "lunch"],
+      "categories": ["ice cream, shakes"],
+      "take_out": true,
+      "sit_down": false,
+      "Vegetarian_only": true
+      
+    },
+    {
+      "name": "champaran meat house",
+      "meals": ["lunch"],
+      "categories": ["Fried Chicken"],
+      "take_out": true,
+      "sit_down": true,
+      "Vegetarian_only": false,
+      "links": {"google_maps": { "label": "Google Maps", "url": "https://www.google.com/maps/place/Hill+Country+Chicken/@40.743303,-73.989454,17z"}}
+    },
+    {
+      "name": "cook book pub",
+      "meals": ["lunch", "Dinner"],
+      "categories": ["Pub"],
+      "take_out": false,
+      "sit_down": true,
+      "Vegetarian_only": true
+    },
+      
+    {
+      "name": "foresto Sandwich Shop",
+      "meals": ["lunch"],
+      "categories": ["Sandwiches"],
+      "take_out": true,
+      "sit_down": true,
+      "Vegetarian_only": true,
+      "links": {"google_maps": { "label": "Google Maps", "url": "https://www.google.com/maps/place/Foresto+Paradise/@25.6098648,85.1346193,17z"}}
+    },
+    {
+      "name": "barbeque nation",
+      "meals": ["lunch"],
+      "categories": ["Mexican"],
+      "take_out": true,
+      "sit_down": true,
+      "Vegetarian_only": false,
+      "links": {"google_maps": { "label": "Google Maps", "url": "https://www.google.com/maps/place/Barbeque+Nation+-+Patna+-+Patna+One+Mall/@25.6098828,85.1344648,17z"}}
+    },
+    {
+      "name": "Old Town Bar & Restaurant",
+      "meals": ["lunch", "Dinner"],
+      "categories": ["buffay"],
+      "take_out": false,
+      "sit_down": true,
+      "Vegetarian_only": false,
+      "links": {"google_maps": { "label": "Google Maps", "url": "https://www.google.com/maps/place/Biryani+Mahal/@25.6098828,85.1344648,17z"}}
+    },
+    {
+      "name": "mum's kitchen",
+      "meals": ["lunch"],
+      "categories": ["Mediterranean", "Middle Eastern", "Vegetarian_only"],
+      "take_out": true,
+      "sit_down": false,
+      "Vegetarian_only": true,
+      "links": { "google_maps": { "label": "Google Maps", "url": "https://www.google.com/maps/place/Mum's+Kitchen/@25.6003188,85.1529831,17z"}}
+    },
+    {
+      "name": "Coffee Shop",
+      "meals": ["lunch", "Dinner"],
+      "categories": ["Diner", "beverages"],
+      "take_out": false,
+      "sit_down": true,
+      "Vegetarian_only": false,
+      "links": { "google_maps": { "label": "Google Maps", "url": "https://www.google.com/maps/place/Barista/@25.6005117,85.1509593,17z"}}
+    },
+    {
+      "name": "fest of things",
+      "meals": ["Dinner"],
+      "categories": ["buffay"],
+      "take_out": false,
+      "sit_down": true,
+      "Vegetarian_only": false,
+      "links": {"google_maps": { "label": "Google Maps", "url": "https://www.google.com/maps/place/Absolute+Barbecues+-+Patna-+Fresar+Road/@25.611844,85.13673,17z"}}
+    },
+    {
+      "name": "shudh shakahari veg",
+      "meals": ["lunch","dinner"],
+      "categories": ["Mediterranean", "Middle Eastern", "Vegetarian_only"],
+      "take_out": true,
+      "sit_down": false,
+      "Vegetarian_only": true
+    },
+    {
+      "name": "sandwichhbash",
+      "meals": ["lunch", "Dinner"],
+      "categories": ["Cheese", "Soups", "Sandwiches"],
+      "take_out": true,
+      "sit_down": true,
+      "Vegetarian_only": true
+    },
+    {
+      "name": "big Inn",
+      "meals": ["lunch"],
+      "categories": ["Salads", "Healthy"],
+      "take_out": true,
+      "sit_down": true,
+      "Vegetarian_only": true,
+      "links": {"google_maps": { "label": "Google Maps", "url": "https://www.google.com/maps/place/Golden+Flavour™/@25.6189001,85.1087465,17z"}}
+    },
+    {
+      "name": "M&M's",
+      "meals": ["lunch"],
+      "categories": ["Sandwiches"],
+      "take_out": true,
+      "sit_down": true,
+      "Vegetarian_only": true,
+      "links": {"google_maps": { "label": "Google Maps", "url": "https://www.google.com/maps/place/CookBook+Cafe/@25.6290852,85.1024202,17z"}}
+    }
+  ]
